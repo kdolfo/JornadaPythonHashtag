@@ -1,0 +1,14 @@
+@"
+# VS Code
+.vscode/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+# Notebooks
+.ipynb_checkpoints/
+# SO
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding UTF8 .gitignore
